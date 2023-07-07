@@ -17,6 +17,7 @@ body{
     color: #757575;
     text-align: center;
     font-size: 18px;
+    line-height: 30px;
 }
 
 /* Nav related Styles */
@@ -91,7 +92,10 @@ nav a{
 
 /* Main Section */
 
-
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 
 
@@ -101,4 +105,12 @@ nav a{
     padding: 130px;
     background-color: #FFF8F3;
     margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-desc{
+    margin-bottom: 30px;
 }
